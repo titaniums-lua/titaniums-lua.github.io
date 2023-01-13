@@ -826,7 +826,7 @@ $jscomp.polyfill("String.prototype.includes", function(b) {
 		});
 		m(function() {
 			if (!x() &&
-				document.querySelectorAll("input[name=animation]").length) {
+				document.querySelectorAll("input[animate__fadeOutUp]").length) {
 				var a = function() {
 						var a = document.documentElement.scrollTop || document.body.scrollTop,
 							c = a + window.innerHeight - 100;
